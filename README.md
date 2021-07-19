@@ -1,7 +1,6 @@
 - [About](#about)
 - [Installation](#installation)
 - [Defaults](#defaults)
-- [Variables](#variables)
 
 # About
 
@@ -30,17 +29,3 @@ Defaults have been prefilled. Variables have to be added by user
 
 For defaults see: `defaults/main.yml`
 For variables see: `vars/main.yml`
-
-
-
-
-
-
-# Variables
-
-For defaults see `defaults/main.yml`.
-
-| Variable           | Description                                                                                                    | Default                  | Optional/Required |   |
-|--------------------|----------------------------------------------------------------------------------------------------------------|--------------------------|-------------------|---|
-| install_apt_packages    | List of packages to install                                 | null                     | Required          |   | Optional
-| install_pip_packages      | List of packages to install                                                                                         |             | Optional          |   |
