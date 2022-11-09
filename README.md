@@ -11,7 +11,7 @@ This role install specified apt and pip packages.
 Add the following to `requirements.yml`:
 
 ```
-- src: git@gitlab.com:carbonique/ansible-role-packages.git
+- src: https://github.com/carbonique/ansible-role-packages.git
   scm: git
   name: packages
   version: #Leave empty for latest. To download a specific version: use the tag as listed in repo
